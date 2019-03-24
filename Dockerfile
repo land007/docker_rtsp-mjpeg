@@ -2,7 +2,7 @@ FROM land007/tfjs-html:latest
 
 MAINTAINER Yiqiu Jia <yiqiujia@hotmail.com>
 
-RUN . $HOME/.nvm/nvm.sh && npm install ws
+RUN . $HOME/.nvm/nvm.sh && cd / && npm install ws
 
 #ADD rtsp-mjpeg_node /node
 #WORKDIR /node
